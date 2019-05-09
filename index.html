@@ -10,7 +10,8 @@
     </head>
     <body>
         <div class="top">
-           Antonov 225 <span>&#9992;</span>
+            <a href="login.html"><div class="left">Login</div></a>
+            <a href="register.html"><div class="right">Register</div></a>
         </div>
         <ul>
             <li><a href="#">Development</a></li>
@@ -48,12 +49,23 @@
             <div class="email-form">
                 <form action="php-action.php">
                     <label for="fname">First name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br><label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                    <br><label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="poland">Poland</option>
+                        </select>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
         <div class="footer">
-            Copyright © by <a href="https://github.com/ToxicPL">Kacper Jedynak</a>
+            Copyright by <a href="https://github.com/ToxicPL">Kacper Jedynak</a> ©
         </div>
     </body>
 </html>
