@@ -158,3 +158,13 @@ button.social-signin.facebook {
 button.social-signin.twitter {
   background: #55ACEE;
 }
+
+/*------back to the main page----------*/
+.back {
+    text-align: center;
+}
+
+.back a {
+    text-decoration: none;
+}
+/*------------------*/
